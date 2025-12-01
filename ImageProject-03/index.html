@@ -5,35 +5,42 @@
   </head>
   <body>
     <a-assets>
-      <a-asset-item id="FastCar" src="SandCastle.glb"></a-asset-item>
+      <a-asset-item id="house" src="house.obj"></a-asset-item>
+      <a-asset-item id="houseMtl" src="house.mtl"></a-asset-item>
+
+      <a-asset-item id="lowTree" src="CartoonTree.obj"></a-asset-item>
+      <a-asset-item id="camaro" src="Chevrolet_Camaro_SS_Low.obj"></a-asset-item>
     </a-assets>
 
     <a-scene>
       
+      <a-obj-model src="#house " color="yellow" postion="0 0 15" scale="2 2 2" rotation="0 0 0" mtl="#houseMtl"></a-obj-model>
+      <a-obj-model src="#lowTree " color="green" position="8 1 4.5" rotation="0 0 0" scale=".75"></a-obj-model>
+      <a-obj-model src="#camaro " color="red" position="9 .7 10" rotation="0 -110 0" scale=".6 .6 .6"></a-obj-model>
 
-      <a-box position="10 0.5 -2.75" rotation="0 90 0" height="7" width=".5" depth="7" color="gray"></a-box>
-      <a-box position="13 0.5 0" rotation="0 0 0" height="6" width="1" depth="5" color="gray"></a-box>
-      <a-box position="10 3.75 0" rotation="0 0 0" height="0.5" width="7" depth="5" color="gray"></a-box>
+      <a-box position="10 0.5 7.25" rotation="0 90 0" height="7" width=".5" depth="7" color="gray"></a-box>
+      <a-box position="13 0.5 10" rotation="0 0 0" height="6" width="1" depth="5" color="gray"></a-box>
+      <a-box position="10 3.75 10" rotation="0 0 0" height="0.5" width="7" depth="5" color="gray"></a-box>
 
-      <a-box position="6.5 0.5 2.4" rotation="0 0 0" height="7" width=".25" depth=".25" color="gray"></a-box>
+      <a-box position="6.5 0.5 12.4" rotation="0 0 0" height="7" width=".25" depth=".25" color="gray"></a-box>
 
-      <a-box position="10 0 2.425" rotation="0 0 0" height="0.15" width="7" depth=".15" color="gray"></a-box>
-      <a-box position="10 .25 2.425" rotation="0 0 0" height="0.15" width="7" depth=".15" color="gray"></a-box>
-      <a-box position="10 .5 2.425" rotation="0 0 0" height="0.15" width="7" depth=".15" color="gray"></a-box>
-      <a-box position="10 .75 2.425" rotation="0 0 0" height="0.15" width="7" depth=".15" color="gray"></a-box>
-      <a-box position="10 1 2.425" rotation="0 0 0" height="0.15" width="7" depth=".15" color="gray"></a-box>
-      <a-box position="10 1.25 2.425" rotation="0 0 0" height="0.15" width="7" depth=".15" color="gray"></a-box>
-      <a-box position="10 1.5 2.425" rotation="0 0 0" height="0.15" width="7" depth=".15" color="gray"></a-box>
-      <a-box position="10 1.75 2.425" rotation="0 0 0" height="0.15" width="7" depth=".15" color="gray"></a-box>
-      <a-box position="10 2 2.425" rotation="0 0 0" height="0.15" width="7" depth=".15" color="gray"></a-box>
-      <a-box position="10 2.25 2.425" rotation="0 0 0" height="0.15" width="7" depth=".15" color="gray"></a-box>
-      <a-box position="10 2.5 2.425" rotation="0 0 0" height="0.15" width="7" depth=".15" color="gray"></a-box>
-      <a-box position="10 2.75 2.425" rotation="0 0 0" height="0.15" width="7" depth=".15" color="gray"></a-box>
-      <a-box position="10 3 2.425" rotation="0 0 0" height="0.15" width="7" depth=".15" color="gray"></a-box>
-      <a-box position="10 3.25 2.425" rotation="0 0 0" height="0.15" width="7" depth=".15" color="gray"></a-box>
-      <a-box position="10 3.5 2.425" rotation="0 0 0" height="0.15" width="7" depth=".15" color="gray"></a-box>
+      <a-box position="10 0 12.425" rotation="0 0 0" height="0.15" width="7" depth=".15" color="gray"></a-box>
+      <a-box position="10 .25 12.425" rotation="0 0 0" height="0.15" width="7" depth=".15" color="gray"></a-box>
+      <a-box position="10 .5 12.425" rotation="0 0 0" height="0.15" width="7" depth=".15" color="gray"></a-box>
+      <a-box position="10 .75 12.425" rotation="0 0 0" height="0.15" width="7" depth=".15" color="gray"></a-box>
+      <a-box position="10 1 12.425" rotation="0 0 0" height="0.15" width="7" depth=".15" color="gray"></a-box>
+      <a-box position="10 1.25 12.425" rotation="0 0 0" height="0.15" width="7" depth=".15" color="gray"></a-box>
+      <a-box position="10 1.5 12.425" rotation="0 0 0" height="0.15" width="7" depth=".15" color="gray"></a-box>
+      <a-box position="10 1.75 12.425" rotation="0 0 0" height="0.15" width="7" depth=".15" color="gray"></a-box>
+      <a-box position="10 2 12.425" rotation="0 0 0" height="0.15" width="7" depth=".15" color="gray"></a-box>
+      <a-box position="10 2.25 12.425" rotation="0 0 0" height="0.15" width="7" depth=".15" color="gray"></a-box>
+      <a-box position="10 2.5 12.425" rotation="0 0 0" height="0.15" width="7" depth=".15" color="gray"></a-box>
+      <a-box position="10 2.75 12.425" rotation="0 0 0" height="0.15" width="7" depth=".15" color="gray"></a-box>
+      <a-box position="10 3 12.425" rotation="0 0 0" height="0.15" width="7" depth=".15" color="gray"></a-box>
+      <a-box position="10 3.25 12.425" rotation="0 0 0" height="0.15" width="7" depth=".15" color="gray"></a-box>
+      <a-box position="10 3.5 12.425" rotation="0 0 0" height="0.15" width="7" depth=".15" color="gray"></a-box>
 
-      <a-plane position="0 0 -4" rotation="-90 0 0" width="30" height="30" color="#7BC8A4"></a-plane>
+      <a-plane position="0 0 -4" rotation="-90 0 0" width="50" height="50" src="road.jpeg"></a-plane>
       <a-sky src="SkyBox.jpeg"></a-sky>
     </a-scene>
   </body>
